@@ -1,0 +1,16 @@
+integrator    = steep
+nsteps        = 50000
+emtol         = 1000.0
+emstep        = 0.01
+
+; Neighbor Searching
+nstlist       = 20
+cutoff-scheme = Verlet
+
+; Electrostatics
+coulombtype   = PME
+rcoulomb      = 1.2
+
+; Van der Waals Interactions
+vdwtype       = Cut-off
+rvdw          = 1.2
